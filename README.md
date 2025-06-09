@@ -27,7 +27,7 @@ url = 'https://drive.google.com/uc?export=download&id=1sMnZbqBl0sCVU6UZ4BSRGnYUO
 news_df = pd.read_csv(url)
 
 
-🚀 How to Run
+# 🚀 How to Run
 
 Step 1: Clone the Repository
         git clone https://github.com/your-username/fake-news-detector.git
@@ -42,18 +42,18 @@ Step 3: Run the App
 Make sure you are connected to the internet so the dataset and NLTK resources can load.
 
 
-🧠 Model Details
+# 🧠 Model Details
 . Model: Logistic Regression
 . Feature Extraction: TF-IDF Vectorizer
 . Text Cleaning: Lowercasing, punctuation removal, stopword removal, stemming (Porter Stemmer)
 . Evaluation: Accuracy score
 
-🛠 Troubleshooting
+# 🛠 Troubleshooting
 . ModuleNotFoundError: No module named 'nltk': Run pip install nltk
 . LookupError: stopwords not found: Add nltk.download('stopwords') to your code
 . train.csv not found: Ensure your internet is working and the URL is valid
 
-✅ Sample Inputs
+# ✅ Sample Inputs
 Real News:
 Pfizer COVID-19 vaccine shows 95% efficacy in Phase 3 trials.
 
